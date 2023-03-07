@@ -1,0 +1,98 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "black",
+					"name": "Foreground",
+					"slug": "foreground"
+				},
+				{
+					"color": "white",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#3c3c3b",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#008080",
+					"name": "Secondary",
+					"slug": "secondary"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/Montserrat-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "Montserrat",
+					"name": "Montserrat",
+					"slug": "montserrat"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "1.5rem",
+					"slug": "medium"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"background": "#008080",
+					"text": "var:preset|color|background"
+				},
+				"typography": {
+					"fontFamily": "Montserrat",
+					"fontSize": "15px",
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontFamily": "Montserrat",
+					"fontSize": "40px",
+					"fontStyle": "normal",
+					"fontWeight": "800"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "#3c3c3b"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|montserrat",
+			"fontSize": "15px",
+			"fontStyle": "normal",
+			"fontWeight": "400"
+		}
+	}
+}
