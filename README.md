@@ -1,4 +1,4 @@
-# Wordpress Its Block Theme
+# WordPress Block Theme ITS
 
 Das Wordpress Its Block Theme ist ein blankes Theme, das nach Bedarf angepasst werden kann. Dieses Theme enthält Assets wie Templates, CSS, Schriftarten, Bilder und JS, um es Ihnen zu erleichtern, ein einzigartiges Design für Ihre WordPress-Website zu erstellen. 
 
