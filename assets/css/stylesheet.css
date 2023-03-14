@@ -1,34 +1,33 @@
+/*Desktop extra large*/
 @media (min-width:993px){
-    /*Desktop extra large*/
     body{
         background-color: #ff0000;
     }
-
 }
 
+/*Desktop large*/
 @media (min-width: 769px) and (max-width: 992px){
-    /*Desktop large*/
     body{
         background-color: #ff7b00;
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px){
-    /*Tablet*/
+/*Tablet*/
+@media (min-width: 481px) and (max-width: 768px){ 
     body{
         background-color: #fbff00;
     }
 }
 
+/*Mobile large*/
 @media (min-width: 321px) and (max-width:480px){
-    /*mobile large*/
     body{
         background-color: #00ff15;
     }
 }
 
+ /*Mobile small*/
 @media (max-width: 320px){
- /*mobile small*/
     body{
         background-color: #0051ff;
     }
