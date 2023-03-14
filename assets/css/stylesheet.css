@@ -1,11 +1,7 @@
-body{
-    background-color: blueviolet!important;
-}
-
 @media (min-width:993px){
-    /*Desktop exra large*/
+    /*Desktop extra large*/
     body{
-        background-color: red!important;
+        background-color: #ff0000;
     }
 
 }
@@ -13,27 +9,27 @@ body{
 @media (min-width: 769px) and (max-width: 992px){
     /*Desktop large*/
     body{
-        background-color: rgb(255, 123, 0)!important;
+        background-color: #ff7b00;
     }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
     /*Tablet*/
     body{
-        background-color: #fbff00!important;
+        background-color: #fbff00;
     }
 }
 
 @media (min-width: 321px) and (max-width:480px){
     /*mobile large*/
     body{
-        background-color: rgb(0, 255, 21)!important;
+        background-color: #00ff15;
     }
 }
 
 @media (max-width: 320px){
  /*mobile small*/
     body{
-        background-color: rgb(0, 81, 255)!important;
+        background-color: #0051ff;
     }
 }
